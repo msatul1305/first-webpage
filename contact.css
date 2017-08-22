@@ -1,0 +1,78 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 90%; /* Full width */
+    padding: 20px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: crimson;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: ;
+    padding: 20px;
+    border-color: black;
+}ul {
+    list-style-type: none;
+    margin: 0.125cm;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: transparent;
+}
+.active {
+    background-color: #4CAF50;
+}
+.search{
+    width: 180px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.search:focus {
+    width: 100%;
+}
+
+section {
+    background-image: url(bg.png);
+    margin: 0.25cm 1cm 1cm 1cm;
+    border-radius: 15px;
+    padding: 0.50cm 2cm 2cm 2cm;
+}

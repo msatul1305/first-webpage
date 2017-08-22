@@ -1,0 +1,59 @@
+<html>
+<style>
+    body{
+        background-color: white;
+            color: darkslateblue;
+        font-size: 20px;
+        
+    }
+    h1{
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 50px;
+    }
+    
+    </style>
+<body>
+     <section><ul>
+        <link rel="stylesheet" href="contact.css">
+
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+       <b> <li style="float:right"><input class="search" style="float:right" type="text" name="search" placeholder="Search.." ></li></b>
+    </ul><br /><br /><br />
+
+   <center>
+        <h1><big> <b>Contact us </b></big></h1>
+    </center></section>
+    <div class="container">
+        <form action="/action_page.php">
+
+            <label for="fname"><h3>First Name</h3></label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname"><h3>Last Name</h3></label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country"><h3>Country</h3></label>
+            <select id="country" name="country">
+                <option value="India"><h2>India</h2></option>
+                <option value="UK"><h2>UK</h2></option>
+                <option value="usa"><h2>USA</h2></option>
+    </select>
+
+                <label for="subject"><h3>Subject</h3></label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br />
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+    <center>
+            <h3> <br><b><big>Copyright &copy; ONESTOPALLTECH</big></b> </h3>
+        </center>
+    </body>
+
+</html>
