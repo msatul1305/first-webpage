@@ -4,7 +4,8 @@ ul {
     padding: 0.1125cm;
     overflow: hidden;
     background-color: transparent;
-
+    font-variant-caps: petite-caps;
+    
 }
 
 li {
@@ -27,7 +28,7 @@ li a:hover {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color:transparent;
 }
 
 h1 {
@@ -36,17 +37,13 @@ h1 {
     font-size: 50px;
     font-variant: small-caps;
     margin: 1cm 1cm 1cm 1cm;
-    
-}h2 {
-    font-family: "arial" ;
-    color: cadetblue;
-    font-size: 30px;
-    font-variant: normal;
 }
 
-body {
-    margin: 1cm 1cm 1cm 1cm;
-    shape-margin: circle;
+h2 {
+    font-family: "Times New Roman";
+    color: saddlebrown;
+    font-size: 30px;
+    font-variant: normal;
 }
 
 h5 {
@@ -60,7 +57,7 @@ h4 {
 section {
     background-color: white;
     margin: 1cm 1cm 1cm 1cm;
-    border-radius: 15px;
+   
 }
 
 
@@ -122,43 +119,42 @@ section {
 
 
 /* Dark Grey */
-aside{
-    background-image: url(bg51.jpg) ;
-    margin: 1cm 1cm 1cm 1cm;
-    padding: 1CM 1CM 1CM 1CM;
-     border: 1px solid #ccc;
+
+.aside {
+    background-image: url(r.png);
+    padding: 0.5CM 0.5CM 0.5CM 0.5CM;
     border-radius: 4px;
+    height: 50%;
 }
-img{
+
+img {
     float: inherit;
 }
-.one{
+
+.one {
     color: dimgray;
-    
 }
-.head{
-    color: crimson;
+
+.head {
+    color: white;
     font-family: "Times New Roman", Times, serif;
-    
+    font-variant-caps: petite-caps;
+}
 
- 
+footer {
+    color: darkslateblue
 }
-footer{
- 
-    color:darkslateblue
-   
-}
-h3{
+
+h3 {
     margin: 0cm 0cm 0cm 0cm;
-
 }
-.link{
+
+.link {
     color: cornflowerblue;
     font-family: monospace;
-    
-}
-.w3-card-2 {
-    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
-        padding: 0 0px;
 }
 
+.w3-card-2 {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
+    padding: 0 0px;
+}
