@@ -1,0 +1,160 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.1125cm;
+    overflow: hidden;
+    background-color: transparent;
+    font-variant-caps: petite-caps;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: transparent;
+}
+
+.active {
+    background-color:transparent;
+}
+
+h1 {
+    font-family: "Times New Roman";
+    color: brown;
+    font-size: 50px;
+    font-variant: small-caps;
+    margin: 1cm 1cm 1cm 1cm;
+}
+
+h2 {
+    font-family: "Times New Roman";
+    color: saddlebrown;
+    font-size: 30px;
+    font-variant: normal;
+}
+
+h5 {
+    color: cadetblue;
+}
+
+h4 {
+    color: crimson;
+}
+
+section {
+    background-color: white;
+    margin: 1cm 1cm 1cm 1cm;
+   
+}
+
+
+/* Make sure that padding behaves as expected */
+
+* {
+    box-sizing: border-box
+}
+
+
+/* Container for skill bars */
+
+.container {
+    width: 50%;
+    /* Full width */
+    background-color: #ddd;
+    /* Grey background */
+}
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-right: 20px;
+    /* Add some right padding */
+    line-height: 40px;
+    /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white;
+    /* White text color */
+}
+
+.html {
+    width: 90%;
+    background-color: #4CAF50;
+}
+
+
+/* Green */
+
+.css {
+    width: 60%;
+    background-color: #2196F3;
+}
+
+
+/* Blue */
+
+.js {
+    width: 75%;
+    background-color: #f44336;
+}
+
+
+/* Red */
+
+.php {
+    width: 90%;
+    background-color: #808080;
+}
+
+
+/* Dark Grey */
+
+.aside {
+    background-image: url(r.png);
+    padding: 0.5CM 0.5CM 0.5CM 0.5CM;
+    border-radius: 4px;
+    height: 50%;
+}
+
+img {
+    float: inherit;
+}
+
+.one {
+    color: dimgray;
+}
+
+.head {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-variant-caps: petite-caps;
+}
+
+footer {
+    color: darkslateblue
+}
+
+h3 {
+    margin: 0cm 0cm 0cm 0cm;
+}
+
+.link {
+    color: cornflowerblue;
+    font-family: monospace;
+}
+
+.w3-card-2 {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
+    padding: 0 0px;
+}

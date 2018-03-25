@@ -1,0 +1,185 @@
+.search {
+    width: 180px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+     background-color: white;
+}
+
+
+/* When the input field gets focus, change its width to 100% */
+
+.search:focus {
+    width: 100%;
+     background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.1125cm;
+    overflow: hidden;
+    background-color: transparent;
+    font-variant-caps: petite-caps;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: transparent;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid white;
+    /* Gray border */
+    border-radius: 3px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: white;
+}
+aside{
+    background-image: url(firewatch-wallpaper-main.png);
+    border-radius: 8px;
+   padding: 0.5CM 0.5CM 0.5CM 0.5CM;
+
+}
+section {
+    background-color: white;
+   margin-bottom: 1cm;
+    width: 60%;
+    float: left;
+ 
+}
+.side{
+    
+    height: 120%;
+    color: dodgerblue;
+    float: right;
+    width: 25%;
+    /* Full width */
+    background-color: #212121;
+    /* Grey background */
+    margin-left: 3cm;
+    border-radius: -6px; 
+    margin-right: 0cm;
+}
+.side1{
+    padding:;
+    font-size: 16px;
+    color: white;
+    font-family: Verdana,Arial,Tahoma,sans-serif;;
+    
+}
+.search2{
+    background-color: transparent;
+    border-radius: -2px;
+    
+}
+input[type=search],
+select,
+textarea {
+    width: 80%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 0.125px solid darkgray;
+    /* Gray border */
+    border-radius: 40px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin:30px;
+    resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: transparent;
+    height: 2%;
+    color: white;
+}
+input[type=submit] {
+    background-color: #999;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    height: 3%;
+    width: 70%;
+}
+input[type=email] {
+    background-color: floralwhite;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    padding-left: 1cm;
+    
+    cursor: text;
+    font-size: 15px;
+    height: 3%;
+}
+input[type=button] {
+    background-color: crimson;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    
+}
+input[type=button2] {
+    background-color: #424242;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-left: 1cm;
+    padding-right: 0cm;
+    width: 10%;
+    float: left;
+}
+.foot{
+    width: 96%;
+    height:;
+    padding: 1cm 1cm 1cm 1cm;
+    border-radius: ;
+    background-color: transparent;
+    margin: 0px; 
+}
+article{
+    float: inherit;
+    height: 140%;
+}
+.foote{
+    background-color: #333;
+    color: white;
+    width: 97%;
+    padding: .5cm .5cm .5cm .5cm;
+    border-radius: 20px;
+}
